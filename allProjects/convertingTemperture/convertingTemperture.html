@@ -3,9 +3,9 @@
 <link rel="stylesheet" href="convertingTemperture.css">
 <script src="convertingTemperture.js"></script>
 <body>
-  <card class="card">
+  <div class="parent">
     <h2>Temperature Converter</h2> 
-    <div>
+    <div class="child">
       <p>
         <label>Fahrenheit</label>
         <input id="inputFahrenheit" type="number" placeholder="Fahrenheit">
@@ -13,16 +13,14 @@
       <p id="displayCelcius"></p>
       <button type="button" onclick="convertingToCelcus()">Convert to Celcius</button>
     </div>
-
-    <div>
+    <div class="child">
       <p>
         <label>Celcius</label>
         <input id="inputCelcius" type="number" placeholder="Celcius">
       </p>
       <p id="displayFahrenheit"></p>
       <button type="button" onclick="convertingToFahrenheit()">Convert to Fahrenheit</button>
-
     </div>
-  </card>
+  </div>
 </body>
 </html>
