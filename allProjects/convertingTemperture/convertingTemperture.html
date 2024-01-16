@@ -1,16 +1,28 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-<title>Fahrenheit to Celcius Temperature Converter</title>
+<link rel="stylesheet" href="convertingTemperture.css">
+<script src="convertingTemperture.js"></script>
 <body>
+  <card class="card">
+    <h2>Temperature Converter</h2> 
+    <div>
+      <p>
+        <label>Fahrenheit</label>
+        <input id="inputFahrenheit" type="number" placeholder="Fahrenheit">
+      </p>
+      <p id="displayCelcius"></p>
+      <button type="button" onclick="convertingToCelcus()">Convert to Celcius</button>
+    </div>
 
-<h2>Temperature Converter</h2>
-<p>Type a value in the Fahrenheit field to convert the value to Celsius:</p>
+    <div>
+      <p>
+        <label>Celcius</label>
+        <input id="inputCelcius" type="number" placeholder="Celcius">
+      </p>
+      <p id="displayFahrenheit"></p>
+      <button type="button" onclick="convertingToFahrenheit()">Convert to Fahrenheit</button>
 
-<p>
-  <label>Fahrenheit</label>
-  <input id="inputFahrenheit" type="number" placeholder="Fahrenheit" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
-</p>
-<p>Celcius: <span id="outputCelcius"></span></p>
-
+    </div>
+  </card>
 </body>
-</html> -->
+</html>
