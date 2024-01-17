@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="BMICalculator.css">
+<script src="BMICalculator.js"></script>
+<body>
+  <form class="form">
+        <div>
+            <label for="Gender">Gender</label>
+            <input type="radio" value="Male" id="male">
+            <label for="Male">Male</label>
+            <input type="radio" value="Female" id="female">
+            <label for="Female">Female</label>
+        </div>
+        <div>
+            <label for="Height">Height</label>
+            <input type="text" id="feet"> feet
+            <input type="text" id="inches"> inches
+        </div>
+        <div>
+            <label for="Weight">Weight</label>
+            <input type="text" id="weight"> pounds
+        </div>
+        <div>
+            <button type="button" onclick="calculateBMI()">Calculate</button>
+            <button type="clear" id="clear">Clear</button>
+        </div>
+    </form>
+    <div>
+        <p id="BMIResult"></p>
+    </div>
+</body>
+</html>

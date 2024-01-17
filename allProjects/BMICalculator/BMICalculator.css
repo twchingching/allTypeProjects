@@ -1,0 +1,9 @@
+form{
+    text-align: left;
+    padding: 50px;
+
+    div {
+        padding: 20px;
+    }
+}
+
