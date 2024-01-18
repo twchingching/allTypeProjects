@@ -4,13 +4,7 @@
 <script src="BMICalculator.js"></script>
 <body>
   <form class="form">
-        <div>
-            <label for="Gender">Gender</label>
-            <input type="radio" value="Male" id="male">
-            <label for="Male">Male</label>
-            <input type="radio" value="Female" id="female">
-            <label for="Female">Female</label>
-        </div>
+        <h2>BMI Calculation</h2>
         <div>
             <label for="Height">Height</label>
             <input type="text" id="feet"> feet
@@ -22,7 +16,7 @@
         </div>
         <div>
             <button type="button" onclick="calculateBMI()">Calculate</button>
-            <button type="clear" id="clear">Clear</button>
+            <button type="clear" id="clear" onclick="resetFields()">Clear</button>
         </div>
     </form>
     <div>
